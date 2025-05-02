@@ -1,6 +1,6 @@
 name: flutter_native_image
-description: A flutter plugin which uses native iOS/Android to resize, compress or crop
-version: 0.0.6+1
+description: A Flutter plugin for image manipulation using native iOS/Android APIs. Supports image compression, resizing, cropping, and property retrieval.
+version: 0.0.7
 homepage: https://konseben.dev
 issue_tracker: https://github.com/btastic/flutter_native_image/issues
 
@@ -9,8 +9,8 @@ dependencies:
     sdk: flutter
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.10.0 <=2.2.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
 
 flutter:
   plugin:
